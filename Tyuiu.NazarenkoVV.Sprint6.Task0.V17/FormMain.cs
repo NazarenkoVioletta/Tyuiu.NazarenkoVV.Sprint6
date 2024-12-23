@@ -25,12 +25,12 @@
 
             }
 
-            private void executeButton_SMA_Click(object sender, EventArgs e)
+            private void executeButton_NVV_Click(object sender, EventArgs e)
             {
                 DataService ds = new DataService();
                 try
                 {
-                    resultTextBox_SMA.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(xinputBox_SMA.Text)));
+                    resultTextBox_NVV.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(xinputBox_NVV.Text)));
                 }
                 catch
                 {
@@ -38,7 +38,7 @@
                 }
             }
 
-            private void xinputBox_SMA_KeyPress(object sender, KeyPressEventArgs e)
+            private void xinputBox_NVV_KeyPress(object sender, KeyPressEventArgs e)
             {
                 if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8))
                 {
@@ -46,12 +46,12 @@
                 }
             }
 
-            private void xinputBox_SMA_TextChanged(object sender, EventArgs e)
+            private void xinputBox_NVV_TextChanged(object sender, EventArgs e)
             {
 
             }
 
-            private void aboutButton_SMA_Click(object sender, EventArgs e)
+            private void aboutButton_NVV_Click(object sender, EventArgs e)
             {
                 MessageBox.Show("Òàñê 0 âûïîëíèë ñòóäåíò ãðóïïû ÐÏÏá-24-1 Ñèìîíîâ Ìèõàèë Àëåêñååâè÷", "Ñîîáùåíèå", MessageBoxButtons.OK);
             }
