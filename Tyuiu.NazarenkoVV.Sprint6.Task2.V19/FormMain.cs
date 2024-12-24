@@ -54,7 +54,7 @@ namespace Tyuiu.NazarenkoVV.Sprint6.Task2.V19
         }
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 2 выполнил студент группы АСОиУб-24-1 Назаренко В.В.", "Справка");
+            MessageBox.Show("Таск 2 выполнил студент группы ИСПб-24-1 Назаренко В.В.", "Справка");
         }
         private void buttonResult_MouseDown(object sender, MouseEventArgs e)
         {
